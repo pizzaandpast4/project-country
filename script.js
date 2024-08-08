@@ -26,7 +26,7 @@ function search() {
         if (listElements[i].innerHTML.toLowerCase().includes(searchInputValue) || listElements[i].innerHTML.toUpperCase().includes(searchInputValue)) {
             listElements[i].style.display = "";
         } else {
-            listElements[i].style.display = none;
+            listElements[i].style.display = "none";
         }
     }
 };
